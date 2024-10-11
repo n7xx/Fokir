@@ -1,0 +1,197 @@
+/* MEDIA.CSS */
+
+/* Common styles */
+p {
+  font-size: 14px;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar .logo a {
+  font-size: 22px;
+}
+
+.navbar-list {
+  opacity: 0;
+  max-height: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.small-screen-list i {
+  display: block;
+}
+
+.navbar-list li {
+  display: block;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.navbar-list li a {
+  display: block;
+}
+
+.home-content .content h1 {
+  font-size: 40px;
+}
+
+.home-content .content h3, 
+.home-content .content h4 {
+  font-size: 18px;
+}
+
+/* Mobile (up to 600px) */
+@media screen and (max-width: 600px) {
+  .sm-c {
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-box, .about-content, .about-img img,
+  .service, .gallery .item, 
+  #analytics .analysis, 
+  .testimonial-item, .testimonial-content, 
+  .testimonial-img, .blog-item, 
+  .contact-inputs input, .form-container {
+    width: 100%;
+  }
+
+  .testimonial-img img {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    border: 5px solid #ff305b;
+    padding: 5px;
+  }
+}
+
+/* Small tablets and large phones (601px to 806px) */
+@media only screen and (min-width: 601px) and (max-width: 806px) {
+  p {
+    font-size: 15px;
+  }
+
+  .m-c {
+    width: 85%;
+    margin: auto;
+  }
+
+  .home-content .content h1 {
+    font-size: 50px;
+  }
+
+  .home-content .content h3,
+  .home-content .content h4 {
+    font-size: 20px;
+  }
+
+  .service, .gallery .item, #analytics .analysis {
+    width: 50%;
+  }
+}
+
+/* Medium devices (807px to 991px) */
+@media only screen and (min-width: 807px) and (max-width: 991px) {
+  .lg-c {
+    width: 95%;
+    margin: auto;
+  }
+
+  .home-content .content h1 {
+    font-size: 55px;
+  }
+
+  .home-content .content h3,
+  .home-content .content h4 {
+    font-size: 22px;
+  }
+
+  .about-box {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+
+  .service, .gallery .item, 
+  #analytics .analysis, .testimonial-img {
+    width: 50%;
+  }
+
+  .testimonial-img img {
+    width: 130px;
+    padding: 5px;
+  }
+}
+
+/* Large devices (992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .lg-c {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-box {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+
+  .about-content {
+    width: 44%;
+  }
+
+  .home-content .content h1 {
+    font-size: 55px;
+  }
+
+  .home-content .content h3,
+  .home-content .content h4 {
+    font-size: 22px;
+  }
+
+  .gallery .item {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (1200px to 1600px) */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .lg-c {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-box {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+
+  .about-content {
+    width: 60%;
+  }
+
+  .home-content .content h1 {
+    font-size: 55px;
+  }
+
+  .service, .gallery .item, 
+  #analytics .analysis {
+    width: 33.33%;
+  }
+
+  .testimonial-img img {
+    width: 130px;
+    padding: 5px;
+  }
+}
+
+/* Large desktop (1440px and above) */
+@media only screen and (min-width: 1440px) {
+  /* Add your large desktop styles here */
+}
+
+/* Ultra-wide screens (1920px and above) */
+@media only screen and (min-width: 1920px) {
+  /* Add your ultra-wide screen styles here */
+}

@@ -1,0 +1,493 @@
+/* 
+I used !important to make sure this style takes priority over any other styles. 
+   This helps to prevent the override problem and ensures that this specific rule 
+   will always apply, no matter what other CSS rules are in place. 
+   I'm using a single class in the media query, but in the main file, I'm using more classes and tags, 
+   which makes the main file's rules stronger. !important helps to solve this and apply the media styles correctly. */
+
+/* 0 to 600px */
+@media screen and (max-width: 600px) {
+  .sm-c {
+    width: 90%;
+    margin: auto;
+  }
+  .fs14-sm {
+    font-size: 14px !important;
+  }
+  .fs16-sm {
+    font-size: 16px !important;
+  }
+  .fs18-sm {
+    font-size: 18px !important;
+  }
+  .fs22-sm {
+    font-size: 22px !important;
+  }
+  .fs40-sm {
+    font-size: 40px !important;
+  }
+  .p10-sm {
+    padding: 10px;
+  }
+  .w100_sm {
+    width: 100% !important;
+  }
+  .w85_sm {
+    width: 85% !important;
+  }
+    .m0-sm {
+    margin: 0;
+  }
+  .small-screen-list i,
+  .navbar-list li,
+  .navbar-list li a {
+    display: block;
+  }
+
+  .navbar-list {
+    opacity: 0;
+    max-height: 0;
+    text-align: center;
+  }
+  .navbar-list li {
+    padding: 10px 0;
+  }
+  /* End Home in this screen */
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .about-box {
+    margin-bottom: 30px;
+  }
+  .image-border {
+    border: none;
+  }
+  .about-content {
+    padding: 0 15px;
+  }
+  .sm-clr-fix {
+    float: none;
+  }
+  .profile-about ul.right {
+    margin-top: 0;
+  }
+  .about-btns a {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+  /* End about in this screen */
+  .service {
+    padding: 20px;
+  }
+  #analytics .analysis {
+    padding: 20px;
+  }
+  .testimonial-img img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    border: 5px solid #ff305b;
+    padding: 5px;
+  }
+  .blog-item {
+    margin-top: 30px;
+  }
+}
+
+/* From 601px to 806px */
+@media only screen and (min-width: 601px) and (max-width: 806px) {
+  /* Add styles for phones here */
+  .m-c {
+    width: 85%;
+    margin: auto;
+  }
+  .fs14-m {
+    font-size: 14px !important;
+  }
+  .fs16-m {
+    font-size: 16px !important;
+  }
+  .fs18-m {
+    font-size: 18px !important;
+  }
+  .fs20-m {
+    font-size: 20px !important;
+  }
+  .fs50-m {
+    font-size: 50px !important;
+  }
+  .p10-m {
+    padding: 10px;
+  }
+  .p15_m {
+    padding: 15px;
+  }
+  .p20_m {
+    padding: 20px;
+  }
+  .w100_m {
+    width: 100% !important;
+  }
+  .w50_m {
+    width: 50% !important;
+  }
+  .w85_m {
+    width: 85% !important;
+  }
+    .m0-m {
+    margin: 0;
+  }
+  p {
+    font-size: 16px;
+  }
+  .navbar {
+    padding: 15px;
+  }
+  .navbar-list {
+    opacity: 0;
+    max-height: 0;
+    text-align: center;
+  }
+  .small-screen-list i,
+  .navbar-list li,
+  .navbar-list li a {
+    display: block;
+  }
+  .navbar-list li {
+    padding: 10px 0;
+  }
+
+  /* End Home in this screen */
+  .about-box {
+    margin-bottom: 30px;
+  }
+  .image-border {
+    border: none;
+  }
+  .about-content {
+    padding: 0 15px;
+  }
+  .about-content h2 {
+    font-size: 35px;
+  }
+  .sm-clr-fix {
+    float: none;
+  }
+  .profile-about ul.right {
+    margin-top: 0;
+  }
+
+  .testimonial-img img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    border: 5px solid #ff305b;
+    padding: 5px;
+  }
+  .blog-item {
+    margin-top: 30px;
+  }
+}
+
+/* form  768px to 992px */
+@media only screen and (min-width: 807px) and (max-width: 1010px) {
+  /* Add styles for larger screens here */
+  .lg-c {
+    width: 95%;
+    margin: auto;
+  }
+  .fs14-lg {
+    font-size: 14px !important;
+  }
+  .fs16-lg {
+    font-size: 16px !important;
+  }
+  .fs18-lg {
+    font-size: 18px !important;
+  }
+  .fs22-lg {
+    font-size: 22px !important;
+  }
+  .fs55-lg {
+    font-size: 55px !important;
+  }
+  .p10-lg {
+    padding: 10px;
+  }
+  .p15-lg {
+    padding: 15px;
+  }
+  .p20-lg {
+    padding: 20px;
+  }
+  .w100-lg {
+    width: 100% !important;
+  }
+  .w50-lg {
+    width: 50% !important;
+  }
+  .w55-lg {
+    width: 55% !important;
+  }
+  .w85-lg {
+    width: 85% !important;
+  }
+  .w33-lg {
+    width: 33.333% !important;
+  }
+    .m0-lg {
+    margin: 0;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  .navbar-list {
+    opacity: 0;
+    max-height: 0;
+    text-align: center;
+  }
+  .small-screen-list i,
+  .navbar-list li,
+  .navbar-list li a {
+    display: block;
+  }
+  .navbar-list li {
+    padding: 10px 0;
+  }
+  /* End Home in this screen */
+  .about-box {
+    margin-bottom: 30px;
+  }
+  .image-border {
+    border: none;
+  }
+  .about-content {
+    width: 50%;
+    padding: 0;
+  }
+  .about-img img {
+    width: 100%;
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .about-content p {
+    font-size: 15px;
+  }
+  .profile-about ul li {
+    font-size: 15px;
+  }
+  .about-btns a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .testimonial-item {
+    width: 80%;
+  }
+  .testimonial-content {
+    width: 70%;
+  }
+  .testimonial-img {
+    width: 30%;
+  }
+  .testimonial-img img {
+    width: 130px;
+    padding: 5px;
+  }
+  .blog-item {
+    width: 30.333333%;
+    margin-top: 30px;
+  }
+  .blog-thumbnail {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  .blog-thumbnail img {
+    width: 100%;
+    min-height: 100%;
+  }
+  .blog-thumbnail iframe {
+    width: 100%;
+    border: none;
+    height: 100px;
+  }
+  .blog-content {
+    padding: 8px;
+  }
+  .blog-content h3 a {
+    font-size: 18px;
+  }
+  .blog-date {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .contact-inputs input {
+    width: 48%;
+  }
+
+}
+
+/* from 1011 to 1199 */
+@media only screen and (min-width: 1011px) and (max-width: 1199px) {
+  /* Add styles for laptops and desktops here */
+.lg-c {
+    width: 90%;
+    margin: auto;
+  }
+  .fs14-xl {
+    font-size: 14px !important;
+  }
+  .fs16-xl {
+    font-size: 16px !important;
+  }
+  .fs18-xl {
+    font-size: 18px !important;
+  }
+  .fs25-xl {
+    font-size: 25px !important;
+  }
+  .fs65-xl {
+    font-size: 65px !important;
+  }
+  .p10-xl {
+    padding: 10px;
+  }
+  .p15-xl {
+    padding: 15px;
+  }
+  .p20-xl {
+    padding: 20px;
+  }
+  .w100-xl {
+    width: 100% !important;
+  }
+  .w50-xl {
+    width: 50% !important;
+  }
+  .w85-xl {
+    width: 85% !important;
+  }
+  p {
+    font-size: 16px;
+  }
+  .m0-xl {
+    margin: 0;
+  }
+  .d-none{
+    display: none !important;
+  }
+
+  /* End Home in this screen */
+  .about-box {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .about-container {
+    padding: 80px 0;
+  }
+
+  .profile-about ul li {
+    font-size: 17px;
+  }
+  /* End about in this screen */
+  .testimonial-item {
+    width: 100%;
+  }
+  .testimonial-content {
+    width: 70%;
+  }
+  .testimonial-img {
+    width: 30%;
+  }
+  .testimonial-img img {
+    width: 130px;
+    padding: 5px;
+  }
+  #blog {
+    padding: 30px 10px;
+  }
+  .blog-item {
+    width: 30.33%;
+    margin-top: 30px;
+  }
+  .blog-content span {
+    font-size: 15px;
+  }
+  .blog-content h3 a {
+    font-size: 20px;
+  }
+  .blog-read a {
+    font-size: 15px;
+  }
+  .contact-inputs input {
+    width: 48%;
+  }
+
+}
+/* from 1200 to 1600 */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .lg-c {
+    width: 80%;
+    margin: auto;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  .small-screen-list i {
+    display: none;
+  }
+  .about-box {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .about-container {
+    padding: 80px 0;
+  }
+
+  .about-content {
+    width: 60%;
+    padding: 0;
+  }
+  .about-img img {
+    width: 100%;
+  }
+
+  .profile-about ul li {
+    font-size: 18px;
+  }
+  .about-btns a {
+    padding: 8px 14px;
+    font-size: 18px;
+  }
+  .service {
+    padding: 8px;
+  }
+
+  #blog {
+    padding: 50px 10px;
+  }
+
+  .blog-content span {
+    font-size: 15px;
+  }
+  .blog-content h3 a {
+    font-size: 20px;
+  }
+  .blog-read a {
+    font-size: 16px;
+  }
+  .contact-inputs input {
+    width: 48%;
+  }
+  .form-container {
+    width: 100%;
+  }
+}

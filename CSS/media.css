@@ -8,7 +8,7 @@ I used !important to make sure this style takes priority over any other styles.
 /* 0 to 600px */
 @media screen and (max-width: 600px) {
   .sm-c {
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
   .fs14-sm {
@@ -398,13 +398,13 @@ I used !important to make sure this style takes priority over any other styles.
   }
   /* End about in this screen */
   .testimonial-item {
-    width: 100%;
+    width: 90%;
   }
   .testimonial-content {
-    width: 70%;
+    width: 80%;
   }
   .testimonial-img {
-    width: 30%;
+    width: 20%;
   }
   .testimonial-img img {
     width: 130px;

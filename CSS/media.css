@@ -33,7 +33,7 @@ I used !important to make sure this style takes priority over any other styles.
     width: 100% !important;
   }
   .w85_sm {
-    width: 90% !important;
+    width: 99% !important;
   }
     .m0-sm {
     margin: 0;
